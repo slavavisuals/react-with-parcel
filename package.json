@@ -2,19 +2,16 @@
   "name": "reactjs-with-parcel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "/src/index.html",
   "scripts": {
-    "start": "parcel src/pages/*.html",
-    "build": "parcel build src/pages/*.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "postcss-preset-env": "^6.7.0",
-    "sass": "^1.49.9"
+    "parcel": "^2.3.2"
   },
   "dependencies": {
     "react": "^17.0.2",

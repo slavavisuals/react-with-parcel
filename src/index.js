@@ -1,6 +1,13 @@
-import './styles/index.scss';
-console.log('index page');
+import ReactDOM from 'react-dom';
+import Test from './components/Test';
 
-if (module.hot) {
-  module.hot.accept();
-}
+const App = () => {
+  return (
+    <>
+      <h1>Hello from React</h1>
+      <Test />
+    </>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
